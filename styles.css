@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100vw;
+  background-color: teal;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 80%;
+  background-color: cornsilk;
+  margin: 0 auto;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top img {
+  width: 20%;
+  border-radius: 50%;
+  margin: 40px;
+}
+.intro {
+  margin: 20px 20px;
+}
+
+.intro h3 {
+  font-size: 48px;
+}
+.intro p {
+  font-size: 20px;
+}
+.first {
+  margin: 20px 10px;
+}
+.first h2 {
+  font-size: 30px;
+}
+.first p {
+  font-size: 18px;
+}
+.skill {
+  margin: 20px;
+  margin-left: 300px;
+}
+.skill h2 {
+  font-size: 30px;
+}
+.skill p {
+  font-size: 20px;
+}
